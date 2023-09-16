@@ -1,0 +1,19 @@
+use this snippet of code on vba to get the csv file from excel sheets
+
+https://www.youtube.com/watch?v=wuvij2DaZyE 
+
+----------------------------------------
+
+Sub ExportSheetsToCSV()
+    Dim xWs As Worksheet
+    Dim xcsvFile As String
+    For Each xWs In Application.ActiveWorkbook.Worksheets
+        xWs.Copy
+        xcsvFile = CurDir & "\" & xWs.Name & ".csv"
+        Application.ActiveWorkbook.SaveAs Filename:=xcsvFile, _
+        FileFormat:=xlCSV, CreateBackup:=False
+        Application.ActiveWorkbook.Saved = True
+        Application.ActiveWorkbook.Close
+    Next
+End Sub
+

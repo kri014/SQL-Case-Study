@@ -1,0 +1,21 @@
+Zomato Dataset Query
+1. Select a particular database 
+2. Count number of rows 
+3. Return n random records 
+4. Find null values 
+5. Find number of order placed by each customer
+6. find restaurant with most number of menu items 
+7. find number of votes and avg rating for all the resturant
+8. find the food that is being sold at most number of resturant 
+9. find resturant with max revenue in a given months 
+10. Find resturant with sales >x 
+11. find customers who have never ordered
+12. show order details of a particular customer in a given data range 
+13. customer favoirate food 
+14. find most costly restrant (avg price/ dish)
+15. find delivery partner compensation using the formula (# deliveriies *100+ 1000*avg_rating)
+16. find revenue per month for a resturant 
+17. find correlation between delivery_time and total rating 
+18. find corr between # order and avg price for all restaurant
+19. find all the veg restaurant
+20. find min and max order value for all the customers  
