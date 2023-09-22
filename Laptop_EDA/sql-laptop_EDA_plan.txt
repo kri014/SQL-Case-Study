@@ -1,0 +1,24 @@
+EDA plan
+
+1. head->tail-> sample
+2. for Numerical cols
+  - 8 number summary[count,min,max,mean,std,q1,q2,q3]
+  - missing values 
+  - outliers
+  -> Horizontal/vertical histogram
+3. for categorical cols
+  - value counts-> pie charts
+  - missing value
+4. numerical - numerical
+  - side by side 8 number analysis
+  - scatter plot
+  - correlation
+5. categorical-categorical
+  - contigency table-> stacked bar chart
+6. numerical-categorical
+  - compare distribution across categories
+7. missing value treatment
+8. featue engineering
+  - ppi
+  - price_bracket
+9. one hot encoding 

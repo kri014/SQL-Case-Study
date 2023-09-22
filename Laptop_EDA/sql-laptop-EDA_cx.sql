@@ -1,3 +1,4 @@
+-- ******************** Data cleaning**********************************
 -- 1. Create backup
 USE campus_x
 SELECT * FROM laptop 
@@ -358,3 +359,5 @@ ALTER TABLE laptop DROP COLUMN gpu_name
 SELECT DATA_LENGTH/1024 FROM information_schema.TABLES
 WHERE TABLE_SCHEMA="campus_x"
 AND TABLE_NAME="laptop"
+
+-- *******************************************************************
